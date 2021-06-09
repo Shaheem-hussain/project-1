@@ -1,0 +1,24 @@
+.bg-black{background-color: black;}
+body{font-family: 'Fira Sans', sans-serif;}
+.about-section p{font-size: 16px;line-height: 28px;}
+.custom-font-h3{font-size: 40px;}
+.home-slider h2{font-size: 48px;line-height: normal}
+.home-slider .btn-outline-light {font-size: 22px;line-height: normal;}
+.contact-section{background-image: url(../images/footer-bk.jpg);background-size: cover;background-repeat: no-repeat;}
+.address-box{line-height: 28px;font-size: 16px;}
+.contact-box .form-control{height: 50px;}
+.contact-box textarea.form-control {height: 150px;}
+.home-slider{padding-top: 7em;}
+#focuzSlider{z-index: -9;}
+.about-section{padding-top: 5rem;}
+
+@media(max-width:991px){
+   .home-slider h2.change{
+        font-size: 36px;
+    }
+}
+@media(max-width:767px){
+    .header-section .navbar-brand img {
+        width: 213px;
+    }
+}
